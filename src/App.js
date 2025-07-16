@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 // import Router from "react-router-dom";//importing router to move across pages of nyka
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";

@@ -16,7 +16,7 @@ function Nykahomepage(){
     return(
         <>
          <div>
-          <img src={"https://images-static.nykaa.com/uploads/3b80d12e-4a57-4d8d-9e7e-a8c85b9da4c4.jpg?tr=w-1800,cm-pad_resize"} alt="nyka"/>
+          <img src={"https://images-static.nykaa.com/uploads/3b80d12e-4a57-4d8d-9e7e-a8c85b9da4c4.jpg?tr=w-1800,cm-pad_resize"} alt=""/>
         </div>
         {/* looping through images to set all in one container */}
         <div class="container">

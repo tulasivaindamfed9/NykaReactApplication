@@ -13,7 +13,7 @@ function Header() {
         <div class="container topContainer">
           <div class="row">
             <div class="col-2">
-              <img src="https://images-static.nykaa.com/fashion-images/pub/media/logo-full.svg" />
+              <img src="https://images-static.nykaa.com/fashion-images/pub/media/logo-full.svg" alt=""/>
             </div>
            {/* <div class="col-2"><Link to="/homepage">Nykahome</Link></div> */}
 
