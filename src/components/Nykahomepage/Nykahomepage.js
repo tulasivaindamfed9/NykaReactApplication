@@ -23,7 +23,7 @@ function Nykahomepage(){
          <div class="row">
              {images.map((img, index) => (
                <div class="col-1" key={index}>
-                 <img src={img}/>
+                 <img src={img} alt=""/>
                </div>
              ))}  
          </div>

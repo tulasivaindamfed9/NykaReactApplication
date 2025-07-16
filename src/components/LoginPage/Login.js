@@ -30,6 +30,7 @@ function Login() {
   // creating a function to "register" through post method api calling
   async function registerfun() {
     setLoading(true);
+    console.log(loading)
     try {
       const newuser = await axios.post(
         " https://api.escuelajs.co/api/v1/users/",
@@ -42,7 +43,7 @@ function Login() {
       );
       console.log(newuser.data);
       setData(newuser.data);
-
+console.log(data)
       // storing name,email,password of new user in session storage
       sessionStorage.setItem("email", newuser.data.email);
       sessionStorage.setItem("password", newuser.data.password);
